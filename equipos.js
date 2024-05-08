@@ -34,7 +34,6 @@ app.get('/api/equipos', (req, res, next) => {
     const equipos = DUMMY_EQUIPOS;
 
     res.send(equipos);
-    next();
 });
 
 app.listen(port);
